@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08080a">
+  <meta name="description" content="Flucky Edits — cinematic video editing, motion design, colour grading and social content.">
+  <title>Flucky Edits — Cinematic Video Editing</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Flucky Edits home">
+        <span class="brand-mark" aria-hidden="true">FE</span>
+        <span>Flucky <em>Edits</em></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#brochures">Brochures</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Editing · Motion · Social</p>
+          <h1>Stories cut with <span>impact.</span></h1>
+          <p class="hero-lede">Flucky Edits turns raw footage into sharp, cinematic content for brands, events and creators who want to be remembered.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">View work</a>
+            <a class="btn btn-ghost" href="#contact">Start a project</a>
+          </div>
+          <ul class="hero-notes" aria-label="Highlights">
+            <li>Cinematic edits</li>
+            <li>Fast turnaround</li>
+            <li>Social-first storytelling</li>
+          </ul>
+        </div>
+
+        <div class="showreel">
+          <button class="showreel-button video-trigger" type="button" data-title="Flucky Edits Showreel" data-embed="https://www.youtube-nocookie.com/embed/REPLACE_SHOWREEL_ID?autoplay=1&amp;rel=0">
+            <span class="showreel-art" aria-hidden="true"></span>
+            <span class="showreel-shade" aria-hidden="true"></span>
+            <span class="play-icon" aria-hidden="true"></span>
+            <span class="showreel-label">
+              <small>Showreel placeholder</small>
+              <strong>Watch the reel</strong>
+            </span>
+            <span class="showreel-corner" aria-hidden="true">FLUCKY/EDITS</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Selected work</p>
+          <h2>Work that holds attention.</h2>
+          <p>A small selection across cinematic stories, events, motion graphics and adverts. Replace the video IDs in the placeholder cards with your embeds.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter work">
+          <button class="filter-btn is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-btn" type="button" data-filter="cinematic" aria-pressed="false">Cinematic</button>
+          <button class="filter-btn" type="button" data-filter="event" aria-pressed="false">Event</button>
+          <button class="filter-btn" type="button" data-filter="adverts" aria-pressed="false">Adverts</button>
+          <button class="filter-btn" type="button" data-filter="motion-graphics" aria-pressed="false">Motion Graphics</button>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card work-card--video" data-category="motion-graphics">
+            <div class="work-video">
+              <video controls playsinline preload="metadata" poster="images/motion_graphics.jpg" aria-label="Motion Graphics">
+                <source src="videos/motion_graphics.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+              <span class="work-tag">Motion Graphics</span>
+            </div>
+            <div class="work-info">
+              <strong>Motion Graphics</strong>
+              <small>Motion design · 16:9</small>
+            </div>
+          </article>
+
+          <article class="work-card work-card--video" data-category="event">
+            <div class="work-video work-video--vertical">
+              <video controls playsinline preload="metadata" poster="images/graduation_edit.jpg" aria-label="Graduation Edit">
+                <source src="videos/graduation_edit.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+              <span class="work-tag">Event</span>
+            </div>
+            <div class="work-info">
+              <strong>Graduation Edit</strong>
+              <small>Event edit · 9:16</small>
+            </div>
+          </article>
+
+          <article class="work-card work-card--video" data-category="event">
+            <div class="work-video work-video--vertical">
+              <video controls playsinline preload="metadata" poster="images/podcast.jpg" aria-label="Podcast Edit">
+                <source src="videos/podcast.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+              <span class="work-tag">Event</span>
+            </div>
+            <div class="work-info">
+              <strong>Podcast Edit</strong>
+              <small>Event edit · 9:16</small>
+            </div>
+          </article>
+
+          <button class="work-card video-trigger" type="button" data-category="cinematic" data-title="Night Drive — Brand Film" data-embed="https://www.youtube-nocookie.com/embed/REPLACE_NIGHT_DRIVE_ID?autoplay=1&amp;rel=0">
+            <span class="work-visual visual-1" aria-hidden="true">
+              <span class="work-tag">Cinematic</span>
+            </span>
+            <span class="work-info">
+              <strong>Night Drive</strong>
+              <small>Brand film · colour graded</small>
+              <span class="card-cta">Watch edit <span aria-hidden="true">→</span></span>
+            </span>
+          </button>
+
+          <button class="work-card video-trigger" type="button" data-category="event" data-title="Lights On — Event Recap" data-embed="https://www.youtube-nocookie.com/embed/REPLACE_LIGHTS_ON_ID?autoplay=1&amp;rel=0">
+            <span class="work-visual visual-2" aria-hidden="true">
+              <span class="work-tag">Event</span>
+            </span>
+            <span class="work-info">
+              <strong>Lights On</strong>
+              <small>Live event recap</small>
+              <span class="card-cta">Watch edit <span aria-hidden="true">→</span></span>
+            </span>
+          </button>
+
+          <button class="work-card video-trigger" type="button" data-category="adverts" data-title="Fresh Drop — Product Ad" data-embed="https://www.youtube-nocookie.com/embed/REPLACE_FRESH_DROP_ID?autoplay=1&amp;rel=0">
+            <span class="work-visual visual-3" aria-hidden="true">
+              <span class="work-tag">Advert</span>
+            </span>
+            <span class="work-info">
+              <strong>Fresh Drop</strong>
+              <small>Product advert · 15s cut</small>
+              <span class="card-cta">Watch edit <span aria-hidden="true">→</span></span>
+            </span>
+          </button>
+
+          <button class="work-card video-trigger" type="button" data-category="cinematic" data-title="Still Here — Short Story" data-embed="https://www.youtube-nocookie.com/embed/REPLACE_STILL_HERE_ID?autoplay=1&amp;rel=0">
+            <span class="work-visual visual-4" aria-hidden="true">
+              <span class="work-tag">Cinematic</span>
+            </span>
+            <span class="work-info">
+              <strong>Still Here</strong>
+              <small>Short-form narrative</small>
+              <span class="card-cta">Watch edit <span aria-hidden="true">→</span></span>
+            </span>
+          </button>
+
+          <button class="work-card video-trigger" type="button" data-category="event" data-title="After Hours — Highlights" data-embed="https://www.youtube-nocookie.com/embed/REPLACE_AFTER_HOURS_ID?autoplay=1&amp;rel=0">
+            <span class="work-visual visual-5" aria-hidden="true">
+              <span class="work-tag">Event</span>
+            </span>
+            <span class="work-info">
+              <strong>After Hours</strong>
+              <small>Highlights + social cutdowns</small>
+              <span class="card-cta">Watch edit <span aria-hidden="true">→</span></span>
+            </span>
+          </button>
+
+          <button class="work-card video-trigger" type="button" data-category="adverts" data-title="Book Now — Campaign Ad" data-embed="https://www.youtube-nocookie.com/embed/REPLACE_BOOK_NOW_ID?autoplay=1&amp;rel=0">
+            <span class="work-visual visual-6" aria-hidden="true">
+              <span class="work-tag">Advert</span>
+            </span>
+            <span class="work-info">
+              <strong>Book Now</strong>
+              <small>Campaign · motion graphics</small>
+              <span class="card-cta">Watch edit <span aria-hidden="true">→</span></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What I do</p>
+          <h2>Everything your story needs.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-num">01</span>
+            <h3>Video editing</h3>
+            <p>Assembly, pacing, sound and story shaping for long-form, shorts and social cuts.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">02</span>
+            <h3>Motion &amp; graphics design</h3>
+            <p>Titles, transitions, overlays and clean motion that make every frame feel intentional.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">03</span>
+            <h3>Social media management</h3>
+            <p>Content planning, scheduling and platform-ready edits built for attention and consistency.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">04</span>
+            <h3>Colour grading</h3>
+            <p>Looks that set the mood, protect skin tones and give your footage a finished finish.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section brochures-section" id="brochures">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Brochures</p>
+          <h2>The details, in one place.</h2>
+          <p>Download or view the latest documents. Replace the two Google Docs links with your own.</p>
+        </div>
+
+        <div class="brochure-grid">
+          <a class="brochure-card" href="https://docs.google.com/document/d/REPLACE_SERVICE_GUIDE_DOC_ID/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span class="brochure-icon" aria-hidden="true">01</span>
+            <span>
+              <strong>Services &amp; rates</strong>
+              <small>Google Doc · replace link</small>
+            </span>
+            <span class="brochure-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="brochure-card" href="https://docs.google.com/document/d/REPLACE_CLIENT_GUIDE_DOC_ID/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <span class="brochure-icon" aria-hidden="true">02</span>
+            <span>
+              <strong>Client guide</strong>
+              <small>Google Doc · replace link</small>
+            </span>
+            <span class="brochure-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Focused on the feeling, not just the footage.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I’m Flucky — a video editor building sharp, cinematic content for people who want their work to feel bigger than the screen it lives on.</p>
+          <p>From first assembly to final grade, every project is handled with care, clear communication and an eye for the small details that make a cut land.</p>
+          <ul class="about-list">
+            <li>Based in Kenya, working with clients anywhere</li>
+            <li>Cinematic editing, motion, graphics and colour</li>
+            <li>Short-form content for social platforms</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s make something worth watching.</h2>
+        <p class="contact-lede">Tell me about your project, your deadline and the feeling you want people to walk away with.</p>
+
+        <div class="contact-actions">
+          <a class="btn btn-whatsapp" href="https://wa.me/254114785787?text=Hi%20Flucky%2C%20I%27d%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          <a class="btn btn-ghost" href="https://www.tiktok.com/@flucky420" target="_blank" rel="noopener noreferrer">TikTok <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <p class="contact-number">WhatsApp: <a href="tel:+254114785787">+254114785787</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> Flucky Edits</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <dialog class="video-dialog" id="video-dialog" aria-labelledby="video-title">
+    <div class="dialog-shell">
+      <div class="dialog-top">
+        <h2 id="video-title">Video</h2>
+        <button class="dialog-close" type="button" aria-label="Close video">×</button>
+      </div>
+      <div class="video-frame" id="video-frame"></div>
+    </div>
+  </dialog>
+</body>
+</html>
